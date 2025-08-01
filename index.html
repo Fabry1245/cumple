@@ -7,16 +7,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <audio autoplay loop>
-    <source src="cancion.mp3" type="audio/mp3">
-  </audio>
-
   <div class="contenedor">
     <h1>🎉 ¡Feliz cumpleaños Debi! 🎂</h1>
     <p class="frase">Un año más de ti en este mundo es motivo de alegría para el universo entero. <br><strong>Feliz cumpleaños, mi amor 💖</strong></p>
     <img src="nosotros.jpg" alt="Foto de nosotros" class="foto">
     <button onclick="mostrarSorpresa()">Haz clic aquí 🎁</button>
     <div id="sorpresa"></div>
+     <div style="margin-top: 20px;">
+      <button onclick="document.getElementById('musica').play()">▶️ Reproducir música</button>
+      <button onclick="document.getElementById('musica').pause()">⏸️ Pausar música</button>
+    </div>
+
+    <audio id="musica" loop>
+      <source src="cancion.mp3" type="audio/mpeg">
+      Tu navegador no soporta el audio.
+    </audio>
   </div>
 
   <script src="script.js"></script>
