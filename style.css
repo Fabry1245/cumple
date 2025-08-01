@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f48fb1, #90caf9);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .contenedor {
+    padding: 40px;
+  }
+  
+  .foto {
+    width: 250px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  
+  .frase {
+    font-size: 1.3em;
+    margin: 20px;
+  }
+  
+  button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c2185b;
+  }
